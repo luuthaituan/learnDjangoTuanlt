@@ -1,0 +1,13 @@
+Create new web app:
+- python manage.py startapp <Tên APP>
+- settings.py: INSTALLED_APPS => 'new_app'
+- python manage.py migrate
+
+client send the request to server => server send response
+
+control the request of client to server => views.py
+
+create the url for each views to control the request
+
+urls.py in your app folder: gọi tới def khai trong đó
+urls.py trong thư mục project chính: liên kết các app con thành web to
