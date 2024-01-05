@@ -13,3 +13,8 @@ urls.py in your app folder: gọi tới def khai trong đó
 urls.py trong thư mục project chính: liên kết các app con thành web to
 
 py manage.py sqlmigrate home 0001
+
+
+Khi bạn chạy lệnh python manage.py makemigrations, Django tự động tạo các tệp migration dựa trên sự thay đổi trong mô hình của bạn. Trong trường hợp của bạn, bạn đã định nghĩa một mô hình home với hai trường first_column và second_column kiểu CharField.
+
+File 0001_initial.py là một tệp migration được tạo trong lần tạo migration đầu tiên cho ứng dụng của bạn. Nó chứa mô tả cho việc tạo bảng cơ sở dữ liệu đầu tiên (initial) dựa trên mô hình của bạn.
