@@ -11,3 +11,5 @@ create the url for each views to control the request
 
 urls.py in your app folder: gọi tới def khai trong đó
 urls.py trong thư mục project chính: liên kết các app con thành web to
+
+py manage.py sqlmigrate home 0001
